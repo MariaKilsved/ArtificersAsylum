@@ -1,0 +1,17 @@
+.main {
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 92px;
+}
+.main .icon {
+  width: 200px;
+}
+.main h3 {
+  font-size: 32px;
+  line-height: 40px;
+  color: #202123;
+  margin: 16px 0 40px;
+}

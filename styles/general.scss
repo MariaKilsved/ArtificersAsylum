@@ -1,0 +1,91 @@
+/* Customize Bootstrap */
+$theme-colors: (
+    "primary": #111
+);
+
+$body-bg: #fff4e1;
+$body-color: #111;
+
+$offcanvas-bg-color: #111;
+$btn-close-color: #fff4e1;
+$btn-color: #fff4e1;
+$nav-link-color: #ffebb7;
+$nav-link-hover-color: #fff9eb;
+$navbar-brand-margin-end: 2rem;
+$dropdown-link-color: #ffebb7;
+$list-group-bg: #3b3b3b;
+$list-group-color: #ffeac7;
+$list-group-active-bg: #111;
+
+
+/* import bootstrap to set changes */
+@import "~bootstrap/scss/bootstrap";
+
+/*---------------------------------------------------------------------------------*/
+
+/*Itim font*/
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+/*---------------------------------------------------------------------------------*/
+
+body {
+    background-image: url("../public/paper-antique-seamless-by-Sam-Swicegood.jpg");
+    background-repeat: repeat;
+}
+
+.itim {
+    font-family: 'Itim', cursive;
+}
+
+.pt-menu {
+    padding-top: 92px;
+}
+
+.btn-primary {
+    color: $btn-color;
+}
+
+.nav-link {
+    color: $nav-link-color;
+}
+
+.nav-link:hover {
+    color: $nav-link-hover-color;
+}
+
+.dropdown-menu-dark {
+    background-color: #3b3b3b;
+
+    --bs-dropdown-color: #dee2e6;
+    --bs-dropdown-bg: #343a40;
+    --bs-dropdown-box-shadow: ;
+    --bs-dropdown-link-color: #dee2e6;
+    --bs-dropdown-link-hover-color: #fff;
+    --bs-dropdown-divider-bg: var(--bs-border-color-translucent);
+    --bs-dropdown-link-hover-bg: rgba(255, 255, 255, 0.15);
+    --bs-dropdown-link-active-color: #fff;
+    --bs-dropdown-link-active-bg: #0d6efd;
+    --bs-dropdown-link-disabled-color: #adb5bd;
+    --bs-dropdown-header-color: #adb5bd;
+}
+
+.dropdown-item {
+    color: #ffeac7;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    background-color: #111;
+}
+
+.dropdown-divider {
+    color: #111;
+}
+
+.form-select {
+    background-color: #111;
+    color: #fff4e1;
+}
+
+.list-group-item:hover {
+    background-color: #585858;
+}

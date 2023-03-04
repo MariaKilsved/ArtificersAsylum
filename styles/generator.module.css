@@ -1,0 +1,30 @@
+.main,
+.main input {
+  font-size: 16px;
+  line-height: 24px;
+  color: #353740;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main .icon {
+  width: 200px;
+}
+.main h3 {
+  font-size: 32px;
+  line-height: 40px;
+  color: #202123;
+  margin: 16px 0 40px;
+}
+.main form {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+}
+
+.main .result {
+  font-weight: bold;
+  margin-top: 40px;
+}
